@@ -22,7 +22,7 @@ import (
 	drive "github.com/google/google-api-go-client/drive/v2"
 
 	"bazil.org/fuse"
-	"github.com/asjoyner/fuse_gdrive/drive_db"
+	"github.com/BrendenCA/fuse_gdrive/drive_db"
 	"golang.org/x/net/context"
 )
 
