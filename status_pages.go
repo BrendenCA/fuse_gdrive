@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/google/google-api-go-client/drive/v2"
+	"google.golang.org/api/drive/v2"
 )
 
 type FilesPage struct {
