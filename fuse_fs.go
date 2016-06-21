@@ -16,7 +16,7 @@ import (
 	_ "bazil.org/fuse/fs/fstestutil"
 	"bazil.org/fuse/fuseutil"
 
-	drive "github.com/google/google-api-go-client/drive/v2"
+	drive "google.golang.org/api/drive/v2"
 
 	"github.com/BrendenCA/fuse_gdrive/drive_db"
 )
