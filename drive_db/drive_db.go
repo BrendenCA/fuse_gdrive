@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	gdrive "code.google.com/p/google-api-go-client/drive/v2"
+	gdrive "github.com/google/google-api-go-client/drive/v2"
 	"github.com/asjoyner/fuse_gdrive/lru"
 	"github.com/golang/groupcache/singleflight"
 	"github.com/syndtr/goleveldb/leveldb"
